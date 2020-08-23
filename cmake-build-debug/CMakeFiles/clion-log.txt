@@ -1,0 +1,48 @@
+/media/qzj/Software/ubuntu_downloads/software/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/qzj/Software/code/IMUOrientationEstimator
+-- Using CATKIN_DEVEL_PREFIX: /media/qzj/Software/code/IMUOrientationEstimator/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.15", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /media/qzj/Software/code/IMUOrientationEstimator/cmake-build-debug/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.15") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+CMake Warning at CMakeLists.txt:35 (add_executable):
+  Cannot generate a safe runtime search path for target RunRosbag because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libboost_program_options.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_signals.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_thread.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_chrono.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_atomic.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done
+-- Build files have been written to: /media/qzj/Software/code/IMUOrientationEstimator/cmake-build-debug

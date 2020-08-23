@@ -22,7 +22,7 @@ target_link_libraries(${PROJECT_NAME} ${EIGEN3_LIBS})
 option(BUILD_EXAMPLE "Build example code" ON)
 
 if (BUILD_EXAMPLE) 
-    find_package(OpenCV 4 REQUIRED)
+    find_package(OpenCV 3 REQUIRED)
     include_directories(${OpenCV_INCLUDE_DIRS})
 
     # ROSBAG
@@ -40,9 +40,9 @@ if (BUILD_EXAMPLE)
     )
 
     # MYNTEYE
-    find_package(mynteye REQUIRED)
-    message(STATUS "Found mynteye: ${mynteye_VERSION}")
-    add_executable(RunMyntEye example/RunMyntEye.cpp)
-    target_link_libraries(RunMyntEye ${PROJECT_NAME} mynteye ${OpenCV_LIBS})
+#    find_package(mynteye REQUIRED)
+#    message(STATUS "Found mynteye: ${mynteye_VERSION}")
+#    add_executable(RunMyntEye example/RunMyntEye.cpp)
+#    target_link_libraries(RunMyntEye ${PROJECT_NAME} mynteye ${OpenCV_LIBS})
 
 endif()

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libIMUOrientationEstimator.so -o libIMUOrientationEstimator.so CMakeFiles/IMUOrientationEstimator.dir/src/Initializer.cpp.o CMakeFiles/IMUOrientationEstimator.dir/src/Propagator.cpp.o CMakeFiles/IMUOrientationEstimator.dir/src/Updater.cpp.o CMakeFiles/IMUOrientationEstimator.dir/src/Estimator.cpp.o 
